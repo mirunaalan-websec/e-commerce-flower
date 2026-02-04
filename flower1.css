@@ -1,0 +1,304 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+nav {
+  width: 100%;
+  min-height: 60px;
+  background-color: aliceblue;
+  padding: 0 20px;
+  border-radius: 20px 20px 0 0;
+  border: 2px solid aliceblue;
+  box-shadow: 1px 2px 5px grey;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flower {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting', cursive;
+  margin-right: auto;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #d71563;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.main-container {
+  position: relative;
+  background: rgba(252, 223, 227,1);
+}
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  max-width: 500px;
+}
+
+.text-on-image h1 {
+  font-size: 42px;
+}
+
+.text-on-image button {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #000;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.text-on-image button:hover {
+  background: #d71563;
+}
+
+/* =========================
+   SECTION TITLES
+========================= */
+.about, .latest {
+  color: #d71563;
+  display: inline-block;
+}
+
+.us, .product {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+.why {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 2px solid aliceblue;
+  box-shadow: 2px 2px 5px grey;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.image-side img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.text-side {
+  max-width: 900px;
+}
+
+.text-side h4 {
+  margin-bottom: 10px;
+  color: #b47c00;
+}
+
+/* =========================
+   SERVICES
+========================= */
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* =========================
+   PRODUCTS GRID
+========================= */
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-detail {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-detail:hover {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   CUSTOMER REVIEWS
+========================= */
+.customer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.customer-card {
+  max-width: 320px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.contact-table-side {
+  width: 400px;
+}
+
+.contact-table-side form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.contact-table-side input,
+.contact-table-side textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-table-side button {
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-table-side button:hover {
+  background: #d71563;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.final {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+/* =========================
+   RESPONSIVE BREAKPOINTS
+========================= */
+@media (max-width: 900px) {
+  .product-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .flower {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .text-on-image {
+    position: static;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .why {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  .contact-table-side {
+    width: 100%;
+  }
+
+  .final {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-card {
+    grid-template-columns: 1fr;
+  }
+
+  .text-on-image h1 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,377 @@
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(256, 256, 256,);
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0px;
+
+background-color:aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 1px 2px 5px grey;
+
+    }
+
+
+.flower{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    float: left;
+    font-family: 'Lucida Handwriting', cursive;
+    display: inline-block;
+}
+
+a{
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    line-height: 50px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+.main-image{
+    width: 100.1%;
+    height: 400px;
+   
+    
+    padding: 0;
+    display: block;
+    
+    
+}
+
+.main-container{
+    margin: 0;
+    
+    padding-top: 0;
+    background: rgba(252, 223, 227,1);
+    
+}
+
+
+.text-on-image{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%,50%);
+}
+
+
+div button{
+    color: rgb(256, 256, 256);
+    background-color: black;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.about{
+    color: #d71563;
+    display: inline-block;
+}
+ .us{
+    display: inline-block;
+ }
+
+
+.why {
+  display: flex;             /* Align children side by side */
+  align-items: center;       /* Vertically center content */
+  gap: 20px;                 /* Space between image and text */
+  padding: 20px;
+ 
+    background-color:aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+.image-side img {
+  width: 400px;              /* Adjust size */
+  height: auto;
+  border-radius: 10px;       /* Optional rounded corners */
+}
+
+.text-side {
+  max-width: 950px;          /* Prevent text from stretching too much */
+}
+
+.text-side h4 {
+  margin-bottom: 10px;
+  color: #b47c00;            /* Example text color */
+}
+
+.text-side p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.service div{
+    display: inline-block;
+    background-color:rgb(119, 220, 220);
+    width: 300px;
+    border-radius: 7px;
+    
+    box-shadow: 1px 2px 5px grey;
+
+     
+}
+
+
+.two{
+    padding: 0;
+    margin: 0;
+}
+
+.three{
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+
+.product-bar{
+    width: 99.5%;
+    
+    background-color:rgba(252, 223, 227,1) ;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 3px;
+    
+}
+
+.latest,.product{
+    display:inline-block;
+    
+    
+}
+
+.product{
+    color: #d71563;
+    }
+
+
+.product-detail h5{
+    display: inline-block;
+    margin: 0;
+    padding-left: 12px;
+}
+
+.product-detail h6{
+    display: inline-block;
+    margin: 0;
+}
+
+.product-detail{
+    background-color:rgba(252, 223, 227,1);
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px grey;
+    display: inline-block;
+    margin: 40px;
+}
+
+.product-detail img{  height: 450px;
+    width: 300px;
+    margin: 0;
+
+}
+
+
+
+    
+
+
+.product-detail h3{
+    margin: 0;
+    padding-left: 12px;
+}
+
+.product-card{
+   display: flex;
+   justify-content: center;
+}
+
+.customer-card{
+    width: 390px;
+    margin-top: 25px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+     box-shadow: 2px 2px 5px grey;
+     margin-left: 40px;
+     border-radius: 9px;
+     display: inline-block;
+}
+
+.customer-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.name{
+    display: inline-block;
+}
+
+.name h2{
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding-top: 2px;
+    margin-top: 0px;
+}
+
+.name h5{
+    margin-top: 0;
+    margin-left: 15px;
+    font-weight: 100;
+}
+
+
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-table-side {
+  flex: 1;   /* form takes half */
+}
+
+.contact-image-side {
+  flex: 1;   /* image takes half */
+  text-align: right;  /* push image to right */
+}
+
+.contact-image-side img {
+  width: 100%;        /* take full half */
+  max-width: 450px;  /* limit max size */
+  height: auto;
+  border-radius: 12px;
+}
+
+
+.contact-table-side form {
+  display: flex;
+  flex-direction: column;   /* STACK VERTICALLY */
+  gap: 12px;               /* space between inputs */
+}
+
+.contact-table-side input,
+.contact-table-side textarea,
+.contact-table-side button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-table-side {
+  padding-left: 40px;   /* space from left */
+}
+
+.contact-table-side form {
+  max-width: 320px;    /* limit form width */
+  width: 100%;
+}
+
+
+.contact-table-side {
+  display: flex;
+  justify-content: flex-start; /* keep to left */
+}
+
+
+.contact-table-side form {
+  max-width: 320px;
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+
+  /* SHADOW */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #eee;
+}
+
+.contact-table-side form:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 80px;   /* creates left & right space */
+}
+
+
+
+.contact-table-side {
+  padding-left: 0;   /* reset if you added before */
+  flex: 1;
+}
+
+
+.quick-links,.extra-link,.locations,.contact-info{
+    display: inline-block;
+    margin: 100px;
+}
+.final h4{
+    font-weight: 100;
+}
+
+
+.credit h3{display: inline-block;
+
+}
+
+.mi{
+    color: #d71563;
+}
+
+.credit{ width: 100%;
+    height: 50px;
+    background-color: rgb(256, 256, 256,);
+    padding: 10px 0;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+.flower:hover{
+    color: #d71563;
+    transition: color 0.3s ease;
+}
+
+
+.natural{
+    color: #d71563;
+}
+
+
+a:hover{
+    color: #d71563;
+    transition: color 0.1s ease;
+}
